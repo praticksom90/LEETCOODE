@@ -1,0 +1,18 @@
+
+public class Runningsumof1Darr1480 {
+
+    public static void main(String[] args) {
+
+    }
+
+    public int[] runningSum(int[] nums) {
+        int n = nums.length;
+        int[] runningSum = new int[n];
+        runningSum[0] = nums[0];  // initialize first element
+        for (int i = 1; i < n; i++) {
+runningSum[i] = runningSum[i - 1] + nums[i];  // add previous running sum + current num
+        }
+        return runningSum;
+    }
+
+}
