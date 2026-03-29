@@ -10,7 +10,7 @@ This repository contains my solutions to DSA problems and concepts.
 - Problem solving practice
 
 ## Language
-Python / C++ (whichever you use)
+Java
 
 ## Goal
 To improve problem solving and coding skills.
